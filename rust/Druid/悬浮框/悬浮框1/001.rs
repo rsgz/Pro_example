@@ -1,3 +1,12 @@
+/*
+[package]
+name = "t005"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+druid = "0.8.3"
+*/
 use druid::widget::prelude::*;
 use druid::widget::{Label, Flex};
 use druid::{AppLauncher, PlatformError, WindowDesc};
